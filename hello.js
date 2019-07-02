@@ -3,3 +3,9 @@ function sayHello(name){
 }
 
 sayHello("Babayaga")
+
+function helloReturn(name){
+  return "Hello " + name
+}
+
+console.log(helloReturn("Aristotle"))
