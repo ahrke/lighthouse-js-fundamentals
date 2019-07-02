@@ -22,3 +22,11 @@ if(temp < 0) {
 }
 
 console.log("Now you're ready to go outside!")
+
+if(!raining && cold){
+  console.log("Bring a warm jacket!")
+} else if(raining && cold){
+  console.log("Bring a warm, water-resistant jacket!!")
+} else {
+  console.log("Look out the window and decide for yourself, maaang")
+}
